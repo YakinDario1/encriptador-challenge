@@ -1,6 +1,13 @@
-/**restear los elementos */
+/* *restear los elementos */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+:root{
+    /* Variables */
+    --texto-Ingresar: Inter;
+    --fondo: #E9ECF8;
+    --texto-blue: #0A3871;
 }

@@ -1,0 +1,5 @@
+{
+    "editor.formatOnType": true,
+    "editor.renderWhitespace": "trailing",
+    "editor.wordWrap": "wordWrapColumn"
+}
