@@ -14,25 +14,26 @@
         <main>
             <section class="encriptar">
                 <div class="container">
-                    <textarea  class="areaTexto" placeholder="Ingrese el texto  aqui" name="encriptar" id="encriptar"" ></textarea>
+                    <textarea  class="areaTexto"  placeholder="Ingrese el texto  aqui" name="encriptar" id="encriptar" ></textarea>
                 </div>
                 <div class="container-botones">
                     <div class="container-botones__texto">
                         <img src="img/alert.svg" alt="alert"> <p>Solo letra minuscula y sin acentos</p>
                     </div>
                     <div class="buttons">
-                        <button type="button">Encriptar</button>
+                        <button type="button" onclick="encriptar()">Encriptar</button>
                         <button type="button">Desencriptar</button>
                     </div>
                 </div>
             </section>
-            <section class="desencriptar">
-                <div class="resultado">
-                    <img src="img/imagen.svg" alt="Imagen">
-                    <strong>Ninguno Mensaje fue encontrado</strong>
-                    <p>Ingrese el texto que desees encriptar o desencriptar.</p>
+            <section class="desencriptar" id="desencriptar">
+                <div class="resultado" id="resultado">
+                    <img src="img/imagen.svg" alt="Imagen" id="imgDer">
+                    <strong id="texto">Ninguno Mensaje fue encontrado</strong>
+                    <p id="texto">Ingrese el texto que desees encriptar o desencriptar.</p>
                 </div>
             </section>
     </main>
+    <script src="/js/app.js"></script>
 </body>
 </html>
